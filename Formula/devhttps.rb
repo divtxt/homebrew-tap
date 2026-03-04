@@ -1,4 +1,4 @@
-class DevHttps < Formula
+class Devhttps < Formula
   desc "Automatic https reverse proxy for local development"
   homepage "https://github.com/divtxt/devhttps"
   version "1.0.0"
