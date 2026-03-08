@@ -1,25 +1,25 @@
 class Devhttps < Formula
   desc "Automatic https reverse proxy for local development"
   homepage "https://github.com/divtxt/devhttps"
-  version "1.0.1"
+  version "1.0.2"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/divtxt/devhttps/releases/download/v1.0.1/devhttps_darwin_arm64.tar.gz"
-      sha256 "311b9517ea5788e3cc945832a4bfff6486501e984f82e19311972e6246abad8d"
+      url "https://github.com/divtxt/devhttps/releases/download/v1.0.2/devhttps_darwin_arm64.tar.gz"
+      sha256 "b433a4d0a15527712d18ef36baea5899d58299c3e87c11ffe61d33a4faa5c983"
     else
-      url "https://github.com/divtxt/devhttps/releases/download/v1.0.1/devhttps_darwin_amd64.tar.gz"
-      sha256 "59010f1f8e28693bfd8c05b1562dc0c0526f3f2dae34ac7635ff5b964ff5112b"
+      url "https://github.com/divtxt/devhttps/releases/download/v1.0.2/devhttps_darwin_amd64.tar.gz"
+      sha256 "6cbd199fb4bd620ceccf76763385b2213fc29dafb3eaf2341e5533d8f6b5659c"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/divtxt/devhttps/releases/download/v1.0.1/devhttps_linux_arm64.tar.gz"
-      sha256 "afc575f8df6764ab6917927ac852d548b9f25ed1968d2318fe12d41005f1f9b4"
+      url "https://github.com/divtxt/devhttps/releases/download/v1.0.2/devhttps_linux_arm64.tar.gz"
+      sha256 "104354b2c31ab22e9cf8fea8d1b26c3bfda60c59d5e30ffc664816f0848a66d9"
     else
-      url "https://github.com/divtxt/devhttps/releases/download/v1.0.1/devhttps_linux_amd64.tar.gz"
-      sha256 "03e6d960f5a49da45d59fe31e6fb144fd88e0c2406c96e18fd76df3548ba7281"
+      url "https://github.com/divtxt/devhttps/releases/download/v1.0.2/devhttps_linux_amd64.tar.gz"
+      sha256 "1faf325ba75f869f188ece8290aa43e6aec2b532a9e75a882bdd33c3f25843a9"
     end
   end
 
